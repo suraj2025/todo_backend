@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://todo-spring.vercel.app")
 public class TaskResource {
      @Autowired
      TaskRepo repo;
